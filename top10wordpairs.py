@@ -77,5 +77,4 @@ plt.bar(list(word_pairs.keys()), list(word_pairs.values()))
 plt.xlabel("Word Pairs")
 plt.ylabel("Count")
 plt.title("Top 10 word pairs in Sports cartegory")
-x_pos = [i for i, _ in enumerate(list(word_pairs.keys()))]
 plt.show()
